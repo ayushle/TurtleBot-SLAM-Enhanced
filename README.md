@@ -21,7 +21,7 @@ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
   ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
   ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
 ```
-## Initail Setup:
+## Initial Setup:
 ### Install TurtleBot3 via Debian Packages.
 ``` bash
       sudo apt install ros-noetic-dynamixel-sdk
