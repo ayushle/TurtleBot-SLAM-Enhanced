@@ -53,3 +53,10 @@ Connect to bot by Ssh in to it.
 ```bash
   ssh BOT_NAME@{IP_ADDRESS_OF_RASPBERRY_PI}
 ```
+### Basic packages:
+Basic packages to start TurtleBot3
+```bash
+  export TURTLEBOT3_MODEL=${TB3_MODEL}
+  roslaunch turtlebot3_bringup turtlebot3_robot.launch
+```
+### Teleoperation
