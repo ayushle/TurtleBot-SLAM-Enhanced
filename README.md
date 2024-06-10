@@ -48,7 +48,7 @@ controller’s pc
 ```
 
 ###  Bring up:
-Connect to bot by Ssh in to it.
+Connect to bot by ssh in to it.
 
 ```bash
   ssh BOT_NAME@{IP_ADDRESS_OF_RASPBERRY_PI}
@@ -66,3 +66,6 @@ Teleoperation using keyboard.
   roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 For other control options check [this](https://emanual.robotis.com/docs/en/platform/turtlebot3/basic_operation/) out.
+## Slam
+### How it works.....
+
