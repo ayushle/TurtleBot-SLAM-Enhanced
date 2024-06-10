@@ -60,3 +60,9 @@ Basic packages to start TurtleBot3
   roslaunch turtlebot3_bringup turtlebot3_robot.launch
 ```
 ### Teleoperation
+Teleoperation using keyboard.
+```bash
+  export TURTLEBOT3_MODEL=${TB3_MODEL}
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+For other control options check [this](https://emanual.robotis.com/docs/en/platform/turtlebot3/basic_operation/) out.
